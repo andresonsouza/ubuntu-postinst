@@ -20,6 +20,8 @@ sudo apt install --install-recommends winehq-staging
 sudo apt install winetricks
 
 #Rambox
-
 wget -c https://github.com/ramboxapp/community-edition/releases/download/0.6.9/Rambox-0.6.9-linux-amd64.deb #update_link
 sudo apt install -y ./Rambox*.deb
+
+#Principais compiladores
+sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl
