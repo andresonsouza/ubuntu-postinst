@@ -18,3 +18,8 @@ sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
 sudo apt update
 sudo apt install --install-recommends winehq-staging
 sudo apt install winetricks
+
+#Rambox
+
+wget -c https://github.com/ramboxapp/community-edition/releases/download/0.6.9/Rambox-0.6.9-linux-amd64.deb #update_link
+sudo apt install -y ./Rambox*.deb
