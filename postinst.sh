@@ -25,3 +25,15 @@ sudo apt install -y ./Rambox*.deb
 
 #Principais compiladores
 sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl
+
+#4KVideoDownloader
+wget -c https://dl.4kdownload.com/app/4kvideodownloader_4.9.3-1_amd64.deb
+sudo apt install -y ./4kvideodownloader*.deb
+
+#Etcher
+wget -c https://github.com/balena-io/etcher/releases/download/v1.5.57/balena-etcher-electron_1.5.57_amd64.deb #update_link
+sudo apt install -y ./balena-etcher*.deb
+
+#Stacer
+wget -c https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/stacer_1.1.0_amd64.deb
+sudo apt install -y ./stacer*.deb
