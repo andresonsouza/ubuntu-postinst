@@ -19,9 +19,11 @@ sudo apt update
 sudo apt install --install-recommends winehq-staging
 sudo apt install winetricks
 
-#Rambox
-wget -c https://github.com/ramboxapp/community-edition/releases/download/0.6.9/Rambox-0.6.9-linux-amd64.deb #update_link
-sudo apt install -y ./Rambox*.deb
+#Rambox via snap
+sudo snap install rambox
+
+#WPS Office
+sudo snap install wps-office-multilang
 
 #Principais compiladores
 sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl
@@ -37,3 +39,12 @@ sudo apt install -y ./balena-etcher*.deb
 #Stacer
 wget -c https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/stacer_1.1.0_amd64.deb
 sudo apt install -y ./stacer*.deb
+
+#Spotify
+sudo snap install spotify
+
+#Drafsigth
+cd ~/Downloads/ &&
+wget -c http://dl-ak.solidworks.com/nonsecure/draftsight/2019SP0/draftSight.deb &&
+sudo dpkg -i draftSight.deb &&
+sudo apt-get -f install
