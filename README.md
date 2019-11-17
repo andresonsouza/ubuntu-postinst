@@ -10,3 +10,4 @@
 - Etcher
 - Spotify
 - Drafsigth
+- Ubuntu Studio Controls

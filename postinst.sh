@@ -48,3 +48,6 @@ cd ~/Downloads/ &&
 wget -c http://dl-ak.solidworks.com/nonsecure/draftsight/2019SP0/draftSight.deb &&
 sudo dpkg -i draftSight.deb &&
 sudo apt-get -f install
+
+#Ubuntu Studio Controls
+sudo apt install ubuntustudio-controls
