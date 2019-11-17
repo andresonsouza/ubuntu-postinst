@@ -1,1 +1,12 @@
 # ubuntu-postinst
+- Atualização e limpeza
+- Kernel Liquorix
+- Zram
+- wine
+- Rambox
+- WPS Office
+- Compiladores e libs
+- 4KVideoDownloader
+- Etcher
+- Spotify
+- Drafsigth
