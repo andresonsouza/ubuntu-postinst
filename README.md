@@ -1,4 +1,4 @@
-# elementary-os-post-inst
+# Post Install guide ubuntu
 
 - Principais compiladores e dependências de desenvolvimento do sistema
 - Utilitários - Postgresql, Redis e memcached
