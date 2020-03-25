@@ -1,13 +1,33 @@
-# ubuntu-postinst
-- Atualização e limpeza
-- Kernel Liquorix
-- Zram
-- wine
-- Rambox
-- WPS Office
-- Compiladores e libs
-- 4KVideoDownloader
-- Etcher
+# elementary-os-post-inst
+
+- Principais compiladores e dependências de desenvolvimento do sistema
+- Utilitários - Postgresql, Redis e memcached
+- Configurando postgresql
+- Docker - https://get.docker.com/
+- Docker Compose -  https://github.com/docker/compose/releases
+- Docker Machine - https://github.com/docker/machine/releases
+- MongoDB
+- ASDF
+- Principais Linguagens
+- Clojure
+- kotlin
+- Elixir
+- Erlang
+- Golang
+- Ruby
+- Rust
+- Crystal
+- NodeJs
+- Angular
+- Typescript
+- Habilitar snapd
 - Spotify
-- Drafsigth
+- Slack
+- Brave
+- Telegram
+- Wine
+- Kernel xanmod - https://xanmod.org/
+- zram
 - Ubuntu Studio Controls
+- Airwave manager
+- Reaper - https://www.reaper.fm/
