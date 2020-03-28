@@ -1,6 +1,7 @@
 # Post Install guide ubuntu
 
 - Principais compiladores e dependências de desenvolvimento do sistema
+- Gerenciadores de compactação
 - Utilitários - Postgresql, Redis e memcached
 - Configurando postgresql
 - Docker - https://get.docker.com/

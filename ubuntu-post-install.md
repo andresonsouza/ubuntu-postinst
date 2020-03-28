@@ -4,6 +4,12 @@
 sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl
 ```
 
+## Gerenciadores de compactação
+
+```bash
+sudo apt-get install p7zip-full p7zip-rar lzma lzma-dev rar unrar-free p7zip ark ncompress
+```
+
 ## Utilitários - Postgresql, Redis e memcached
 
 ```bash
