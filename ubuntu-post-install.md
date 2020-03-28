@@ -73,8 +73,8 @@ sudo chown `id -u` /data/db
 
 ```bash
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.6
-echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
-echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
+echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
+echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
 sudo apt install \
   automake autoconf libreadline-dev \
   libncurses-dev libssl-dev libyaml-dev \
@@ -114,8 +114,8 @@ asdf global elixir 1.9.4 #update_version
 ```bash
 asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
 asdf list-all erlang
-asdf install erlang 22.1.8 #update_version
-asdf global erlang 22.1.8 #update_version
+asdf install erlang 22.2.8 #update_version
+asdf global erlang 22.2.8 #update_version
 ```
 
 ## Golang
@@ -268,4 +268,22 @@ mkdir ~/.config/REAPER/UserPlugins/
 cp reaper_sws64.so ~/.config/REAPER/UserPlugins/
 wget -c https://github.com/cfillion/reapack/releases/download/v1.2.2/reaper_reapack64.so
 cp reaper_reapack64.so ~/.config/REAPER/UserPlugins/
+```
+
+## Snap aplications
+
+```bash
+
+### API Development Environment
+sudo snap install postman
+
+### IDE for Android
+sudo snap install android-studio --classic
+
+### Remote desktop client
+sudo snap install remmina
+
+### Free, cross-platform, open source video editor
+sudo snap install shotcut --classic
+
 ```
