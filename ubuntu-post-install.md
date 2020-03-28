@@ -276,6 +276,7 @@ cp reaper_reapack64.so ~/.config/REAPER/UserPlugins/
 
 ### API Development Environment
 sudo snap install postman
+sudo snap install insomnia
 
 ### IDE for Android
 sudo snap install android-studio --classic
