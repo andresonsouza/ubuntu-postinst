@@ -33,3 +33,4 @@
 - Airwave manager
 - Reaper - https://www.reaper.fm/
 - Snap aplications
+- Tela icon theme
