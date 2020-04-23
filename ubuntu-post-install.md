@@ -56,7 +56,15 @@ curl -L https://github.com/docker/machine/releases/download/v0.16.2/docker-machi
     chmod +x /tmp/docker-machine &&
     sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
 ```
+## Tela Icon Theme
 
+```bash
+git clone https://github.com/vinceliuice/Tela-icon-theme.git &&
+ls ~/Tela-icon-theme &&
+mkdir -p ~/.icons &&
+cd ~/Tela-icon-theme &&
+./install.sh -d ~/.icons
+```
 ## MongoDB
 
 ```bash
