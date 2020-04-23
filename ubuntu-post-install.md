@@ -296,3 +296,14 @@ sudo snap install remmina
 sudo snap install shotcut --classic
 
 ```
+## Tela Icon theme
+
+```bash
+git clone https://github.com/vinceliuice/Tela-icon-theme.git
+ls ~/Tela-icon-theme
+mkdir -p ~/.icons
+cd ~/Tela-icon-theme
+./install.sh -d ~/.icons
+ls ~/.icons | grep Tela
+
+```
