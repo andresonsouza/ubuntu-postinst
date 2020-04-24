@@ -7,6 +7,7 @@
 - Docker - https://get.docker.com/
 - Docker Compose -  https://github.com/docker/compose/releases
 - Docker Machine - https://github.com/docker/machine/releases
+- CTOP
 - MongoDB
 - ASDF
 - Principais Linguagens
