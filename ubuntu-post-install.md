@@ -275,22 +275,25 @@ wget -c https://github.com/cfillion/reapack/releases/download/v1.2.2/reaper_reap
 cp reaper_reapack64.so ~/.config/REAPER/UserPlugins/
 ```
 
-## Snap aplications
+## Postman
 
 ```bash
-
-### API Development Environment
-sudo snap install postman
-sudo snap install insomnia
-
-### IDE for Android
-sudo snap install android-studio --classic
-
-### Remote desktop client
-sudo snap install remmina
-
-### Free, cross-platform, open source video editor
-sudo snap install shotcut --classic
+wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz &&
+sudo tar -xvzf postman-linux-x64.tar.gz -C /opt &&
+sudo ln -s /opt/Postman/Postman /usr/bin/postman &&
+cat << EOF > ~/.local/share/applications/postman2.desktop
+[Desktop Entry]
+Name=Postman
+GenericName=API Client
+X-GNOME-FullName=Postman API Client
+Comment=Make and view REST API calls and responses
+Keywords=api;
+Exec=/opt/Postman/Postman
+Terminal=false
+Type=Application
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Categories=Development;Utilities;
+EOF
 
 ```
 ## Tela Icon theme
