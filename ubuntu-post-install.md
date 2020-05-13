@@ -74,7 +74,7 @@ sudo mkdir -p /data/db
 sudo chown `id -u` /data/db
 ```
 
-## Gerenciado de versionamento de linguagens ASDF
+## Gerenciador de versionamento de linguagens ASDF
 
 ```bash
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.6
@@ -263,7 +263,7 @@ sudo dpkg -i airwave_1.3.3-1_amd64.deb
 
 ```bash
 wget -c https://www.reaper.fm/files/6.x/reaper602_linux_x86_64.tar.xz
-sudo apt instala xz-utils
+sudo apt install xz-utils
 tar -xvf reaper602_linux_x86_64.tar.xz
 cd reaper_linux_x86_64/
 sh install-reaper.sh
