@@ -29,4 +29,5 @@
 - Airwave manager
 - Reaper - https://www.reaper.fm/
 - Postman
+- Insomnia
 - Tela icon theme
