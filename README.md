@@ -28,5 +28,5 @@
 - Ubuntu Studio Controls
 - Airwave manager
 - Reaper - https://www.reaper.fm/
-- Snap aplications
+- Postman
 - Tela icon theme
