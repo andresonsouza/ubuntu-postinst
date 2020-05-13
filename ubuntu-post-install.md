@@ -182,41 +182,6 @@ npm install -g @angular/cli
 npm install -g typescript
 ```
 
-## Habilitar snapd
-
-```bash
-sudo apt update
-sudo apt install snapd
-```
-
-# Spotify
-
-```bash
-sudo apt update
-sudo snap install spotify
-```
-
-## Slack
-
-```bash
-sudo apt update
-sudo snap install slack --classic
-```
-
-## Brave
-
-```bash
-sudo apt update
-sudo snap install brave
-```
-
-## Telegram
-
-```bash
-sudo apt update
-sudo snap install telegram-desktop
-```
-
 ## Wine
 
 ```bash
