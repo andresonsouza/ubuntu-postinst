@@ -227,7 +227,7 @@ sudo dpkg -i airwave_1.3.3-1_amd64.deb
 ## Reaper
 
 ```bash
-wget -c https://www.reaper.fm/files/6.x/reaper602_linux_x86_64.tar.xz
+wget -c https://www.reaper.fm/files/6.x/reaper602_linux_x86_64.tar.xz #update_version
 sudo apt install xz-utils
 tar -xvf reaper602_linux_x86_64.tar.xz
 cd reaper_linux_x86_64/
@@ -283,4 +283,10 @@ cd ~/Tela-icon-theme
 ./install.sh -d ~/.icons
 ls ~/.icons | grep Tela
 
+```
+## Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
+
+```bash
+$ sudo apt-get install dconf-cli uuid-runtime
+$  bash -c  "$(wget -qO- https://git.io/vQgMr)"
 ```
