@@ -31,3 +31,4 @@
 - Postman
 - Insomnia - https://insomnia.rest/download/
 - Tela icon theme
+- Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
