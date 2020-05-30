@@ -28,10 +28,11 @@ sudo systemctl restart postgresql
 
 ## Docker - https://get.docker.com/
 
-```bashsudo apt-get remove docker docker-engine docker.io
-curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh
-sudo usermod -aG docker andreson
+```bash
+sudo apt install docker.io 
+sudo usermod -aG docker $USER
+sudo systemctl start docker
+sudo systemctl enable docker
 ```
 
 ```bash
