@@ -79,6 +79,22 @@ sudo chown `id -u` /data/db
 sudo apt update
 sudo apt install php php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 ```
+## Compose
+```bash
+sudo apt install curl
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+sudo chmod +x /usr/local/bin/composer
+source ~/.bashrc
+source ~/.zshrc
+composer -v
+```
+
+## Laravel
+```bash
+composer global require laravel/installer
+```
+
 ## Angular
 
 ```bash
