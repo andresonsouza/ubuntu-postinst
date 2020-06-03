@@ -74,103 +74,11 @@ sudo apt-get install -y mongodb-org
 sudo mkdir -p /data/db
 sudo chown `id -u` /data/db
 ```
-
-## Gerenciador de versionamento de linguagens ASDF
-
+## PHP 7.4.3
 ```bash
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.6
-echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
-echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
-sudo apt install \
-  automake autoconf libreadline-dev \
-  libncurses-dev libssl-dev libyaml-dev \
-  libxslt-dev libffi-dev libtool unixodbc-dev \
-  unzip curl
+sudo apt update
+sudo apt install php php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 ```
-
-## Clojure
-
-```bash
-asdf plugin-add clojure https://github.com/vic/asdf-clojure.git
-asdf list-all clojure
-asdf install clojure 1.10.1 #update_version
-asdf global clojure 1.10.1 #update_version
-```
-
-## kotlin
-
-```bash
-asdf plugin-add kotlin https://github.com/missingcharacter/asdf-kotlin.git
-asdf list-all kotlin
-asdf install kotlin 1.3.61 #update_version
-asdf global kotlin 1.3.61 #update_version
-```
-
-## Elixir
-
-```bash
-asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
-asdf list-all elixir
-asdf install elixir 1.9.4 #update_version
-asdf global elixir 1.9.4 #update_version
-```
-
-## Erlang
-
-```bash
-asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
-asdf list-all erlang
-asdf install erlang 22.2.8 #update_version
-asdf global erlang 22.2.8 #update_version
-```
-
-## Golang
-
-```bash
-asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
-asdf list-all golang
-asdf install golang 1.13.5 #update_version
-asdf global golang 1.13.5 #update_version
-```
-
-## Ruby
-
-```bash
-asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
-asdf list-all ruby
-asdf install ruby 2.6.5 #update_version
-asdf global ruby 2.6.5 #update_version
-```
-
-## Rust
-
-```bash
-asdf plugin-add rust https://github.com/code-lever/asdf-rust.git
-asdf list-all rust
-asdf install rust 1.39.0 #update_version
-asdf global rust 1.39.0 #update_version
-```
-
-## Crystal
-
-```bash
-asdf plugin-add crystal https://github.com/marciogm/asdf-crystal.git
-asdf list-all crystal
-asdf install crystall 0.32.0 #update_version
-asdf global crystal 0.32.0 #update_version
-```
-
-## NodeJs
-
-```bash
-asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-asdf list-all nodejs
-asdf install nodejs 12.16.1 #update_version
-asdf global nodejs 12.16.1 #update_version
-npm i -g npm
-```
-
 ## Angular
 
 ```bash
