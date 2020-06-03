@@ -9,17 +9,7 @@
 - Docker Machine - https://github.com/docker/machine/releases
 - CTOP
 - MongoDB
-- ASDF
-- Principais Linguagens
-- Clojure
-- kotlin
-- Elixir
-- Erlang
-- Golang
-- Ruby
-- Rust
-- Crystal
-- NodeJs
+- PHP 7.4.3
 - Angular
 - Typescript
 - Wine
