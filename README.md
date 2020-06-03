@@ -10,6 +10,8 @@
 - CTOP
 - MongoDB
 - PHP 7.4.3
+- Composer
+- Laravel
 - Angular
 - Typescript
 - Wine
