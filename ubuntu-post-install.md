@@ -207,8 +207,16 @@ mkdir -p ~/.icons
 cd ~/Tela-icon-theme
 ./install.sh -d ~/.icons
 ls ~/.icons | grep Tela
-
 ```
+## Flat-Remix theme
+```bash
+sudo apt install git
+git clone https://github.com/daniruiz/flat-remix
+git clone https://github.com/daniruiz/flat-remix-gtk
+mkdir -p ~/.icons && mkdir -p ~/.themes
+cp -r flat-remix/Flat-Remix* ~/.icons/ && cp -r flat-remix-gtk/Flat-Remix-GTK* ~/.themes/
+```
+
 ## Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
 
 ```bash
