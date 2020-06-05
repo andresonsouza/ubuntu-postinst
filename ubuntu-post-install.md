@@ -223,3 +223,9 @@ cp -r flat-remix/Flat-Remix* ~/.icons/ && cp -r flat-remix-gtk/Flat-Remix-GTK* ~
 $ sudo apt-get install dconf-cli uuid-runtime
 $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
 ```
+## Vokoscreen
+```bash
+sudo add-apt-repository ppa:ubuntuhandbook1/apps
+sudo apt update && sudo apt install vokoscreen-ng
+sudo apt update && sudo apt install ubuntu-restricted-extras
+```
