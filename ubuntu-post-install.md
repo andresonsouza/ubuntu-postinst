@@ -74,6 +74,14 @@ sudo apt-get install -y mongodb-org
 sudo mkdir -p /data/db
 sudo chown `id -u` /data/db
 ```
+## Elixir
+```bash
+wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb #Udate_Link
+sudo apt-get update
+sudo apt-get install esl-erlang
+sudo apt-get install elixir
+```
+
 ## PHP 7.4.3
 ```bash
 sudo apt update
