@@ -9,6 +9,7 @@
 - Docker Machine - https://github.com/docker/machine/releases
 - CTOP
 - MongoDB
+- Elixir
 - PHP 7.4.3
 - Composer
 - Laravel
