@@ -19,6 +19,10 @@ sudo apt -y install postgresql postgresql-contrib redis-server libhiredis-dev me
 ## Configurando postgresql
 
 ```bash
+sudo sed -i.bak 's/ident/trust/' /etc/postgresql/12/main/pg_hba.conf #Update_Path
+sudo systemctl start postgresql
+sudo systemctl enable postgresql
+
 sudo -u postgres -i
 createuser --interactive # create with your username and superuser role
 createdb youruser
