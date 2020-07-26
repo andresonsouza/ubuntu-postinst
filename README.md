@@ -26,4 +26,5 @@
 - Tela icon theme
 - Flat-Remix theme
 - Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
+- BashTop
 - Vokoscreen https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html
