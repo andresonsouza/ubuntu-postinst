@@ -235,6 +235,14 @@ cp -r flat-remix/Flat-Remix* ~/.icons/ && cp -r flat-remix-gtk/Flat-Remix-GTK* ~
 $ sudo apt-get install dconf-cli uuid-runtime
 $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
 ```
+
+## BashTop
+```bash
+ sudo add-apt-repository ppa:bashtop-monitor/bashtop
+ sudo apt update
+ sudo apt install bashtop
+```
+
 ## Vokoscreen
 ```bash
 sudo add-apt-repository ppa:ubuntuhandbook1/apps
