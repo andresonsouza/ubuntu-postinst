@@ -249,3 +249,8 @@ sudo add-apt-repository ppa:ubuntuhandbook1/apps
 sudo apt update && sudo apt install vokoscreen-ng
 sudo apt update && sudo apt install ubuntu-restricted-extras
 ```
+## Regolith Desktop
+```bash
+sudo add-apt-repository ppa:regolith-linux/release
+sudo apt install regolith-desktop i3xrocks-net-traffic i3xrocks-cpu-usage i3xrocks-time
+```
