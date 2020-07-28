@@ -28,4 +28,4 @@
 - Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal
 - BashTop - https://github.com/aristocratos/bashtop
 - Vokoscreen https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html
-- Regolith Desktop
+- Regolith Desktop - https://regolith-linux.org/
