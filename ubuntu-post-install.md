@@ -40,9 +40,9 @@ sudo systemctl enable docker
 ```
 
 ```bash
-base=https://github.com/docker/machine/releases/download/v0.16.0 &&
-  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&
-  sudo mv /tmp/docker-machine /usr/local/bin/docker-machine &&
+  base=https://github.com/docker/machine/releases/download/v0.16.0
+  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-Machine
+  sudo mv /tmp/docker-machine /usr/local/bin/docker-machine
   chmod +x /usr/local/bin/docker-machine
 ```
 
@@ -57,8 +57,8 @@ chmod +x /usr/local/bin/docker-compose
 ## Docker Machine - https://github.com/docker/machine/releases
 
 ```bash
-curl -L https://github.com/docker/machine/releases/download/v0.16.2/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine &&
-    chmod +x /tmp/docker-machine &&
+    curl -L https://github.com/docker/machine/releases/download/v0.16.2/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine
+    chmod +x /tmp/docker-machine
     sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
 ```
 ## CTOP
@@ -180,9 +180,9 @@ cp reaper_reapack64.so ~/.config/REAPER/UserPlugins/
 ## Postman
 
 ```bash
-wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz &&
-sudo tar -xvzf postman-linux-x64.tar.gz -C /opt &&
-sudo ln -s /opt/Postman/Postman /usr/bin/postman &&
+wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz
+sudo tar -xvzf postman-linux-x64.tar.gz -C /opt
+sudo ln -s /opt/Postman/Postman /usr/bin/postman
 cat << EOF > ~/.local/share/applications/postman2.desktop
 [Desktop Entry]
 Name=Postman
