@@ -177,8 +177,30 @@ Type=Application
 Icon=/opt/Postman/app/resources/app/assets/icon.png
 Categories=Development;Utilities;
 EOF
-
 ```
+Caso o lançador não apareça no menu de aplicativos faça o seguinte:
+Crie um arquivo para o lançador com o commando abaixo.
+
+```bash
+sudo nano /usr/share/applications/postman2.desktop
+```
+
+Cole o conteúdo abaixo dentro do arquivo.
+
+```bash
+[Desktop Entry]
+Name=Postman
+GenericName=API Client
+X-GNOME-FullName=Postman API Client
+Comment=Make and view REST API calls and responses
+Keywords=api;
+Exec=/opt/Postman/Postman
+Terminal=false
+Type=Application
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Categories=Development;Utilities;
+```
+
 ## Insonmia
 ```bash
 echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
