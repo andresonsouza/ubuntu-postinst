@@ -35,6 +35,7 @@ sudo systemctl restart postgresql
 ```bash
 curl -v https://get.docker.com/ >> script.sh 
 chmod +x script.sh
+sh script.sh
 sudo usermod -aG docker $USER
 sudo systemctl start docker
 sudo systemctl enable docker
