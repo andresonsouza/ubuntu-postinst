@@ -131,7 +131,7 @@ sudo apt-get install zram-config
 sudo add-apt-repository ppa:ubuntustudio-ppa/backports
 sudo apt update
 sudo apt full-upgrade
-sudo apt install ubuntustudio-controls
+sudo apt install studio-controls
 sudo gpasswd -a andreson audio
 ```
 
@@ -164,6 +164,7 @@ cp reaper_reapack64.so ~/.config/REAPER/UserPlugins/
 wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz
 sudo tar -xvzf postman-linux-x64.tar.gz -C /opt
 sudo ln -s /opt/Postman/Postman /usr/bin/postman
+
 cat << EOF > ~/.local/share/applications/postman2.desktop
 [Desktop Entry]
 Name=Postman
@@ -211,6 +212,28 @@ wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
 
 sudo apt-get update
 sudo apt-get install insomnia
+```
+
+## Spring Tolls
+
+Baixe o arquivo compactado. Verifique se existe uma versão mais atualizada no [link](https://spring.io/tools).
+
+```bash
+wget -c https://download.springsource.com/release/STS4/4.8.0.RELEASE/dist/e4.17/spring-tool-suite-4-4.8.0.RELEASE-e4.17.0-linux.gtk.x86_64.tar.gz
+tar -xvf spring-tool-suite-4-4.8.0.RELEASE-e4.17.0-linux.gtk.x86_64.tar.gz
+sudo mv sts-4.8.0.RELEASE /opt
+
+sudo cat << EOF >> /usr/share/applications/STS.desktop
+[Desktop Entry]
+Name=SpringSource Tool Suite
+Comment=SpringSource Tool Suite
+Exec=/opt/sts-4.8.0.RELEASE/SpringToolSuite4
+Icon=/opt/sts-4.8.0.RELEASE/icon.xpm
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Development;IDE;Java;
+EOF
 ```
 
 ## Tela Icon theme
