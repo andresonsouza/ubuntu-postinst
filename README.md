@@ -1,3 +1,5 @@
+# Minhas configurações de pós instalação no ubuntu
+
 ## Principais compiladores e dependências de desenvolvimento do sistema
 
 ```bash
