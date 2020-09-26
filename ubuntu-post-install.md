@@ -33,34 +33,14 @@ sudo systemctl restart postgresql
 ## Docker - https://get.docker.com/
 
 ```bash
-sudo apt install docker.io 
+curl -v https://get.docker.com/ >> script.sh 
+chmod +x script.sh
 sudo usermod -aG docker $USER
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
+Em seguida faça o logout para atualizar as permissões.
 
-```bash
-  base=https://github.com/docker/machine/releases/download/v0.16.0
-  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-Machine
-  sudo mv /tmp/docker-machine /usr/local/bin/docker-machine
-  chmod +x /usr/local/bin/docker-machine
-```
-
-## Docker Compose - https://github.com/docker/compose/releases
-
-```bash
-sudo -i
-curl -L https://github.com/docker/compose/releases/download/1.25.1-rc1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
-```
-
-## Docker Machine - https://github.com/docker/machine/releases
-
-```bash
-    curl -L https://github.com/docker/machine/releases/download/v0.16.2/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine
-    chmod +x /tmp/docker-machine
-    sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
-```
 ## CTOP
 
 ```bash
