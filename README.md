@@ -31,6 +31,14 @@ createdb youruser
 exit
 sudo systemctl restart postgresql
 ```
+Caso seja preciso altere a senha de usuário da seguinte forma:
+
+```bash
+$ sudo -u postgres psql
+postgres=# Alter user postgres password 'novo_password';
+postgres=# \q
+$ sudo service postgresql restart
+```
 
 ## Docker - https://get.docker.com/
 
