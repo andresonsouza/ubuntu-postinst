@@ -301,6 +301,12 @@ sudo apt update && sudo apt install vokoscreen-ng
 sudo apt update && sudo apt install ubuntu-restricted-extras
 ```
 
+## Darktable
+
+``` bash
+sudo apt-get install darktable
+```
+
 ## Regolith Desktop
 
 ``` bash
