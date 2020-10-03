@@ -73,6 +73,14 @@ sudo mkdir -p /data/db
 sudo chown `id -u` /data/db
 ```
 
+## 
+``` bash
+cd /tmp
+wget -c https://atom.io/download/deb
+sudo dpkg -i atom-amd64*
+sudo apt-get install -f
+```
+
 ## Elixir
 
 ``` bash
