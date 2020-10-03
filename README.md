@@ -73,7 +73,14 @@ sudo mkdir -p /data/db
 sudo chown `id -u` /data/db
 ```
 
-## 
+## Visual Studio Code
+
+``` bash
+wget -c https://az764295.vo.msecnd.net/stable/2af051012b66169dde0c4dfae3f5ef48f787ff69/code_1.49.3-1601661857_amd64.deb #update_link
+sudo dpkg -i code*
+```
+
+## Atom
 ``` bash
 cd /tmp
 wget -c https://atom.io/download/deb
