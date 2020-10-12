@@ -307,6 +307,14 @@ $ sudo apt-get install dconf-cli uuid-runtime
 $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
 ```
 
+## xfce4-terminal full screen
+
+Gerenciador de configurações > Teclado > Atalhos de aplicativos
+
+``` bash
+exo-open --launch TerminalEmulator  --maximize
+```
+
 ## BashTop
 
 ``` bash
