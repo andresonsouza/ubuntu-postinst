@@ -315,6 +315,14 @@ Gerenciador de configurações > Teclado > Atalhos de aplicativos
 exo-open --launch TerminalEmulator  --maximize
 ```
 
+## gnome-terminal full screen
+
+Configurações > Atalhos de teclado
+
+```bash
+gnome-terminal --window --maximize
+```
+
 ## BashTop
 
 ``` bash
