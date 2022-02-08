@@ -351,3 +351,16 @@ sudo apt-get install darktable
 sudo add-apt-repository ppa:regolith-linux/release
 sudo apt install regolith-desktop i3xrocks-net-traffic i3xrocks-cpu-usage i3xrocks-time
 ```
+
+## GIMP Photoshop-like support
+
+```bash
+sudo apt-get install gimp
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/doctormo/GimpPs/master/tools/install.sh)"
+```
+
+## Feedreader
+
+```bash
+sudo apt install feedreader
+```
