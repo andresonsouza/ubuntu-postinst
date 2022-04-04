@@ -262,16 +262,16 @@ sudo apt-get install insomnia
 Baixe o arquivo compactado. Verifique se existe uma versão mais atualizada no [link](https://spring.io/tools).
 
 ``` bash
-wget -c https://download.springsource.com/release/STS4/4.13.0.RELEASE/dist/e4.22/spring-tool-suite-4-4.13.0.RELEASE-e4.22.0-linux.gtk.x86_64.tar.gz
-tar -xvf spring-tool-suite-4-4.13.0.RELEASE-e4.22.0-linux.gtk.x86_64.tar.gz
-sudo mv sts-4.13.0.RELEASE /opt
+wget -c https://download.springsource.com/release/STS4/4.14.0.RELEASE/dist/e4.23/spring-tool-suite-4-4.14.0.RELEASE-e4.23.0-linux.gtk.x86_64.tar.gz
+tar -xvf spring-tool-suite-4-4.14.0.RELEASE-e4.23.0-linux.gtk.x86_64.tar.gz
+sudo mv sts-4.14.0.RELEASE /opt
 
 cat << EOF >> ~/.local/share/applications/STS.desktop
 [Desktop Entry]
 Name=SpringSource Tool Suite
 Comment=SpringSource Tool Suite
-Exec=/opt/sts-4.13.0.RELEASE/SpringToolSuite4
-Icon=/opt/sts-4.13.0.RELEASE/icon.xpm
+Exec=/opt/sts-4.14.0.RELEASE/SpringToolSuite4
+Icon=/opt/sts-4.14.0.RELEASE/icon.xpm
 StartupNotify=true
 Terminal=false
 Type=Application
